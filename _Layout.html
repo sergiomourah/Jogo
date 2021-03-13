@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">	
+		<title>Jogo da Velha</title>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="body">
+		<div class="container_right">
+			<input type="label" class="title" value="Estatisticas" >
+			<ul id="Foo">
+			</ul>
+		</div>
+		<div class="container_top">
+			<input type="label" class="title" value="Jogo da Velha" name="DS_Nivel" >
+			<input type="textbox" class="title" value="Insira seu nome" name="txtUser" onclick="InserirNome()">
+			<input type="button" value= "EASY" name="NE" class="nivel" onclick="SelecionarNivel('E')">
+			<input type="button" value= "NORMAL" name="NN" class="nivel" onclick="SelecionarNivel('N')">
+			<input type="button" value= "HARD" name="NH" class="nivel" onclick="SelecionarNivel('H')"><br>	
+			<input type="checkbox" value="Computador inicia" name="CompInicia"  >Computador inicia
+			<input type="button" class="dados" value="Estatisticas" name="dados" onclick="getCookie()">
+		</div>
+		<div class="container">
+				<section class="body">
+					<input type="button" value= "" name="L1C1" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L1C2" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L1C3" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L2C1" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L2C2" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L2C3" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L3C1" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L3C2" class="btn" onclick="Marcar(this.name)">
+					<input type="button" value= "" name="L3C3" class="btn" onclick="Marcar(this.name)">
+				</section>
+				<input type="label" class="msg" value="Para iniciar o jogo escolha o nível primeiro!" name="lblMsg" >
+		</div>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+	background: #white;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid #cecece;
+	background: #gray;
+}
+
+.container_top {
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid #cecece;
+	background: #gray;
+}
+
+.container_right {
+	width:400px;
+	height:400px;
+	float:left;
+	background-color:#gray;
+}
+
+.body {
+	margin-top: 10px;
+	position: auto;
+	width: 100%;
+	height: auto;
+}
+
+.btn{ 
+	position: relative;
+	margin-top: 1px;
+	border: 1px solid #00FFFF;
+	width: 32.4%;
+	height: 100px;
+	background: -webkit-radial-gradient(circle, #8B7D6B, #838B83);
+	background: -o-radial-gradient(circle, #8B7D6B, #838B83);
+	background: -moz-radial-gradient(circle, #8B7D6B, #838B83);
+	color: #black;
+	font-size: 47px
+}
+
+.nivel{ 
+	width: 90%;
+	height: 32%;
+	padding: 10px;
+	margin: 2px auto;
+	border: 1px solid #cecece;
+	background: #696969;
+	font-weight: bold;
+}
+
+.nivelSelect { 
+	width: 90%;
+	height: 32%;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid #cecece;
+	background: #20B2AA;
+	font-weight: bold;	
+}
+
+.title {
+	width: 90%;
+	height: auto;
+	color: black;
+	font-weight: bold;
+	position: center;
+	font-size: 18px;
+	text-align: center;
+}
+
+.msg {
+	width: 100%;
+	height: auto;
+	color: red;
+	font-weight: bold;
+	position: center;
+	font-size: 18px;
+}
+
+.dados{ 
+	width: 30%;
+	height: 100%;
+	padding: 10px;
+	margin-right: 90px;
+	border: 1px solid #cecece;
+	background: #gray;
+	font-weight: bold;
+}
